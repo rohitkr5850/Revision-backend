@@ -1,6 +1,3 @@
-Mongoose Relationship & Middleware Examples
-This document contains code implementations for common use-cases in MongoDB using Mongoose and Node.js.
-
 1. Customer - Orders (One-to-Many)
 Schemas:
 // Customer.js
@@ -143,5 +140,3 @@ Example Usage:
 app.get("/admin", auth, roleCheck("admin"), (req, res) => {
   res.send("Welcome Admin");
 });
-
-Let me know if you want these bundled in a boilerplate folder or with Postman collection for testing.
